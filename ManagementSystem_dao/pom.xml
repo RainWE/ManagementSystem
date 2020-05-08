@@ -10,10 +10,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>ManagementSystem_dao</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>ManagementSystem_service</module>
-    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>com.ManagementSystem</groupId>
+            <artifactId>ManagementSystem_domain</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 
 </project>

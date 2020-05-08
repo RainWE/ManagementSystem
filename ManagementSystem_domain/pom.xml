@@ -10,6 +10,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>ManagementSystem_domain</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.ManagementSystem</groupId>
+            <artifactId>ManagementSystem_utils</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 
 </project>
