@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ManagementSystem.iml" filepath="$PROJECT_DIR$/ManagementSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ManagementSystem_dao/ManagementSystem_dao.iml" filepath="$PROJECT_DIR$/ManagementSystem_dao/ManagementSystem_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ManagementSystem_domain/ManagementSystem_domain.iml" filepath="$PROJECT_DIR$/ManagementSystem_domain/ManagementSystem_domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ManagementSystem_service/ManagementSystem_service.iml" filepath="$PROJECT_DIR$/ManagementSystem_service/ManagementSystem_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ManagementSystem_utils/ManagementSystem_utils.iml" filepath="$PROJECT_DIR$/ManagementSystem_utils/ManagementSystem_utils.iml" />
     </modules>
   </component>
 </project>
