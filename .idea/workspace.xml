@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed056d82-92fd-4668-a573-23a0c433ea74" name="默认更改列表" comment="" />
+    <list default="true" id="ed056d82-92fd-4668-a573-23a0c433ea74" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/ManagementSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -328,7 +331,7 @@
       <workItem from="1588766462990" duration="611000" />
       <workItem from="1588819797933" duration="48000" />
       <workItem from="1588825329830" duration="602000" />
-      <workItem from="1588912667729" duration="14869000" />
+      <workItem from="1588912667729" duration="15419000" />
     </task>
     <servers />
   </component>
