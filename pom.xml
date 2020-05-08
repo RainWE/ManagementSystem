@@ -10,12 +10,7 @@
         <module>ManagementSystem_utils</module>
         <module>ManagementSystem_web</module>
     </modules>
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.6.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
-    </parent>
+
     <groupId>com.ManagementSystem</groupId>
     <artifactId>demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
