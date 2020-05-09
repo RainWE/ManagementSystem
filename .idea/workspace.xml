@@ -7,17 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed056d82-92fd-4668-a573-23a0c433ea74" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages/product-add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages/product-list1.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManagementSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao/IOrdersDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_domain/src/main/java/com/ssm/domain/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_domain/src/main/java/com/ssm/domain/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_domain/src/main/java/com/ssm/domain/Traveller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/IOrdersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/impl/OrdersServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/java/com/ssm/controller/OrdersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages/orders-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages/orders-page-list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao/IProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao/IProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManagementSystem_domain/src/main/java/com/ssm/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_domain/src/main/java/com/ssm/domain/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/IProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManagementSystem_web/src/main/java/com/ssm/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/java/com/ssm/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManagementSystem_web/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages/aside.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +58,21 @@
         <item name="ssm@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="ssm: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="orders: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ssm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ssm: schema" type="76f4a085:MysqlImplModel$Schema" />
         <item name="product: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ssm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ssm: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="traveller: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -109,12 +124,12 @@
     <property name="DatabaseDriversLRU" value="oracle&#10;mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ManagementSystem_web/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -122,8 +137,9 @@
       <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp\WEB-INF" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\resources" />
       <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp\pages" />
+      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_domain\src\main\java\com\ssm\domain" />
+      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\resources" />
       <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_utils\src\main\java\com\ssm\utils" />
       <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp" />
     </key>
@@ -344,7 +360,7 @@
       <workItem from="1588912667729" duration="16032000" />
       <workItem from="1588985213462" duration="29000" />
       <workItem from="1589000058105" duration="3115000" />
-      <workItem from="1589007610086" duration="3271000" />
+      <workItem from="1589007610086" duration="12254000" />
     </task>
     <servers />
   </component>
