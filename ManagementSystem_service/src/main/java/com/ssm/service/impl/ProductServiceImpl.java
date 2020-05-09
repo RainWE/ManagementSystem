@@ -19,9 +19,14 @@ import java.util.List;
 @Transactional
 public class ProductServiceImpl implements IProductService {
 
+
     @Autowired
     private IProductDao productdao;
 
+    @Override
+    public void save(Product product) throws Exception {
+        productdao.save(product);
+    }
 
     @Override
     public List<Product> findAll() throws Exception {

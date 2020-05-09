@@ -15,6 +15,7 @@ public interface IProductService {
 
 
     //查询所有的产品信息
-    public List<Product> findAll() throws Exception;
+    List<Product> findAll() throws Exception;
 
+    void save(Product product) throws Exception;
 }

@@ -7,8 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed056d82-92fd-4668-a573-23a0c433ea74" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages/product-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages/product-list1.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ManagementSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao/IProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao/IProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManagementSystem_domain/src/main/java/com/ssm/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_domain/src/main/java/com/ssm/domain/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/IProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManagementSystem_web/src/main/java/com/ssm/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/java/com/ssm/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,12 +109,12 @@
     <property name="DatabaseDriversLRU" value="oracle&#10;mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ManagementSystem_utils/src/main/java/com/ssm/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ManagementSystem_web/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -113,8 +122,9 @@
       <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp\WEB-INF" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_utils\src\main\java\com\ssm\utils" />
+      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\resources" />
       <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp\pages" />
+      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_utils\src\main\java\com\ssm\utils" />
       <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp" />
     </key>
   </component>
@@ -308,7 +318,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c3432a78" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@753ec4c3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -317,7 +327,7 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\11382\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -331,7 +341,10 @@
       <workItem from="1588766462990" duration="611000" />
       <workItem from="1588819797933" duration="48000" />
       <workItem from="1588825329830" duration="602000" />
-      <workItem from="1588912667729" duration="15419000" />
+      <workItem from="1588912667729" duration="16032000" />
+      <workItem from="1588985213462" duration="29000" />
+      <workItem from="1589000058105" duration="3115000" />
+      <workItem from="1589007610086" duration="3271000" />
     </task>
     <servers />
   </component>
