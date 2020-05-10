@@ -7,15 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed056d82-92fd-4668-a573-23a0c433ea74" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao/IMemberDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao/ITravellerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages/orders-show.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao/IOrdersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao/IOrdersDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManagementSystem_domain/src/main/java/com/ssm/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_domain/src/main/java/com/ssm/domain/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManagementSystem_domain/src/main/java/com/ssm/domain/Traveller.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_domain/src/main/java/com/ssm/domain/Traveller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/IOrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/IOrdersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/impl/OrdersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/impl/OrdersServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManagementSystem_web/src/main/java/com/ssm/controller/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/java/com/ssm/controller/OrdersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao/IRoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_domain/src/main/java/com/ssm/domain/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_domain/src/main/java/com/ssm/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_domain/src/main/java/com/ssm/domain/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/resources/spring-security.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/failer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +57,14 @@
         <item name="ssm@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="ssm: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="traveller: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="permission: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ssm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ssm: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="users: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -66,8 +75,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -110,7 +119,7 @@
     <property name="DatabaseDriversLRU" value="oracle&#10;mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
@@ -119,13 +128,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp\pages" />
+      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_dao\src\main\java\com\ssm\dao" />
       <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_domain\src\main\java\com\ssm\domain" />
-      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\resources" />
-      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_utils\src\main\java\com\ssm\utils" />
       <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp" />
+      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp\pages" />
+      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp" />
       <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp\pages" />
       <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp\WEB-INF" />
     </key>
@@ -342,7 +352,7 @@
       <workItem from="1588985213462" duration="29000" />
       <workItem from="1589000058105" duration="3115000" />
       <workItem from="1589007610086" duration="12691000" />
-      <workItem from="1589077554654" duration="6331000" />
+      <workItem from="1589077554654" duration="13241000" />
     </task>
     <servers />
   </component>
