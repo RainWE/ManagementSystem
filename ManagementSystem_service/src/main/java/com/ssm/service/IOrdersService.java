@@ -15,4 +15,6 @@ public interface IOrdersService {
 //    List<Orders> findAll() throws Exception;
     //分页
     List<Orders> findAll(int page,int size) throws Exception;
+
+    Orders findById(Integer ordersId) throws Exception;
 }

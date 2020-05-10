@@ -1,5 +1,9 @@
 package com.ssm.domain;
+
+import lombok.Data;
+
 //会员
+@Data
 public class Member {
     private String id;
     private String name;
