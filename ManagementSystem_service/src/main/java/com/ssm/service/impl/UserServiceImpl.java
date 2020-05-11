@@ -9,6 +9,7 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -28,6 +29,26 @@ public class UserServiceImpl implements IUserService {
     @Autowired
     private IUserDao UserDao;
 
+    @Autowired
+    private BCryptPasswordEncoder bCryptPasswordEncoder;
+
+    @Override
+    public UserInfo findById(Integer id) throws Exception {
+        return UserDao.findById(id);
+    }
+
+    @Override
+    public void save(UserInfo userInfo) throws Exception {
+        //对密码进行加密处理
+        userInfo.setPassword(bCryptPasswordEncoder.encode(userInfo.getPassword()));
+        UserDao.save(userInfo);
+    }
+
+    @Override
+    public List<UserInfo> findAll() throws Exception {
+        return UserDao.findAll();
+    }
+
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         UserInfo userInfo=null;
@@ -38,7 +59,7 @@ public class UserServiceImpl implements IUserService {
         }
         //处理自己的用户对象封装成UserDetails
         //  User user=new User(userInfo.getUsername(),"{noop}"+userInfo.getPassword(),getAuthority(userInfo.getRoles()));
-        User user = new User(userInfo.getUsername(), "{noop}" + userInfo.getPassword(), userInfo.getStatus() == 0 ? false : true, true, true, true, getAuthority(userInfo.getRoles()));
+        User user = new User(userInfo.getUsername(), userInfo.getPassword(), userInfo.getStatus() == 0 ? false : true, true, true, true, getAuthority(userInfo.getRoles()));
         return user;
     }
     //作用就是返回一个List集合，集合中装入的是角色描述

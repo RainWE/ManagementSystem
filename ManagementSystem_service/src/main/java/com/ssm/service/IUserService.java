@@ -1,6 +1,9 @@
 package com.ssm.service;
 
+import com.ssm.domain.UserInfo;
 import org.springframework.security.core.userdetails.UserDetailsService;
+
+import java.util.List;
 
 /**
  * @Auther:cdx
@@ -9,4 +12,9 @@ import org.springframework.security.core.userdetails.UserDetailsService;
  * @Version:1.0
  */
 public interface IUserService extends UserDetailsService {
+    List<UserInfo> findAll() throws Exception;
+
+    void save(UserInfo userInfo) throws Exception;
+
+    UserInfo findById(Integer id)throws Exception;
 }

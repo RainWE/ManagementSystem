@@ -7,17 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed056d82-92fd-4668-a573-23a0c433ea74" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao/IRoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_domain/src/main/java/com/ssm/domain/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_domain/src/main/java/com/ssm/domain/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_domain/src/main/java/com/ssm/domain/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/resources/spring-security.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/failer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao/IPermissionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_utils/src/main/java/com/ssm/utils/BCryptPasswordEncoderUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/java/com/ssm/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages/user-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages/user-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages/user-show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages/user-show1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao/IRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao/IRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManagementSystem_domain/src/main/java/com/ssm/domain/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_domain/src/main/java/com/ssm/domain/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManagementSystem_web/src/main/resources/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/resources/spring-security.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +121,7 @@
     <property name="DatabaseDriversLRU" value="oracle&#10;mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
@@ -127,17 +129,17 @@
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_dao\src\main\java\com\ssm\dao" />
-      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_domain\src\main\java\com\ssm\domain" />
-      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp" />
-      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp\pages" />
-      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\resources" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp" />
       <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp\pages" />
       <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp\pages" />
+      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_utils\src\main\java\com\ssm\utils" />
+      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_dao\src\main\java\com\ssm\dao" />
+      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_domain\src\main\java\com\ssm\domain" />
+      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -153,6 +155,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.ManagementSystem">
+    <configuration name="BCryptPasswordEncoderUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ssm.utils.BCryptPasswordEncoderUtils" />
+      <module name="ManagementSystem_utils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ssm.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ssm_ms" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -321,7 +336,13 @@
       <item itemvalue="Maven.ssm_ms" />
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Tomcat Server.ManagementSystem" />
+      <item itemvalue="Application.BCryptPasswordEncoderUtils" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BCryptPasswordEncoderUtils" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
@@ -352,7 +373,8 @@
       <workItem from="1588985213462" duration="29000" />
       <workItem from="1589000058105" duration="3115000" />
       <workItem from="1589007610086" duration="12691000" />
-      <workItem from="1589077554654" duration="13241000" />
+      <workItem from="1589077554654" duration="13439000" />
+      <workItem from="1589171173345" duration="5990000" />
     </task>
     <servers />
   </component>
