@@ -7,19 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed056d82-92fd-4668-a573-23a0c433ea74" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao/IPermissionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_utils/src/main/java/com/ssm/utils/BCryptPasswordEncoderUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/java/com/ssm/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages/user-add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages/user-list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages/user-show.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages/user-show1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/IRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/java/com/ssm/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages/role-list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao/IRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao/IRoleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao/IUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManagementSystem_domain/src/main/java/com/ssm/domain/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_domain/src/main/java/com/ssm/domain/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManagementSystem_web/src/main/resources/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/resources/spring-security.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -129,17 +121,17 @@
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp" />
-      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp\pages" />
-      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp\WEB-INF" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp\pages" />
       <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_utils\src\main\java\com\ssm\utils" />
       <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_dao\src\main\java\com\ssm\dao" />
       <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_domain\src\main\java\com\ssm\domain" />
       <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp" />
+      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp\pages" />
+      <recent name="D:\IntelliJ IDEAworkplace2\项目\ManagementSystem\ManagementSystem_web\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -333,10 +325,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BCryptPasswordEncoderUtils" />
       <item itemvalue="Maven.ssm_ms" />
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Tomcat Server.ManagementSystem" />
-      <item itemvalue="Application.BCryptPasswordEncoderUtils" />
     </list>
     <recent_temporary>
       <list>
@@ -374,7 +366,8 @@
       <workItem from="1589000058105" duration="3115000" />
       <workItem from="1589007610086" duration="12691000" />
       <workItem from="1589077554654" duration="13439000" />
-      <workItem from="1589171173345" duration="5990000" />
+      <workItem from="1589171173345" duration="6717000" />
+      <workItem from="1589250250530" duration="1997000" />
     </task>
     <servers />
   </component>
