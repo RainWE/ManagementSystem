@@ -1,7 +1,7 @@
 package com.ssm.controller;
 
-import com.ssm.domain.Role;
-import com.ssm.service.IRoleService;
+import com.ssm.domain.Permission;
+import com.ssm.service.IPermissionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,25 +15,27 @@ import java.util.List;
  * @Description:com.ssm.controller
  * @Version:1.0
  */
-@RequestMapping("/role")
 @Controller
-public class RoleController {
+@RequestMapping("/permission")
+public class PermissionController {
 
     @Autowired
-    private IRoleService roleService;
+    private IPermissionService permissionService;
 
     @RequestMapping("/save.do")
-    public String save(Role role)throws Exception{
-        roleService.save(role);
+    public String sava(Permission permission)throws Exception{
+
+        permissionService.save(permission);
+
         return "redirect:findAll.do";
     }
 
     @RequestMapping("/findAll.do")
-    public ModelAndView findAll() throws Exception {
+    public ModelAndView findAll()throws Exception{
         ModelAndView mv = new ModelAndView();
-        List<Role> roleList =roleService.findAll();
-        mv.addObject("roleList",roleList);
-        mv.setViewName("role-list");
+        List<Permission> permissionList=permissionService.findAll();
+        mv.addObject("permissionList",permissionList);
+        mv.setViewName("permission-list");
         return mv;
     }
 }

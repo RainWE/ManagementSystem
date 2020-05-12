@@ -23,8 +23,12 @@ public class RoleServiceImpl implements IRoleService {
     private IRoleDao roleDao;
 
     @Override
-    public List<Role> findAll() throws Exception {
+    public void save(Role role) throws Exception {
+        roleDao.save(role);
+    }
 
+    @Override
+    public List<Role> findAll() throws Exception {
         return roleDao.findAll();
     }
 }

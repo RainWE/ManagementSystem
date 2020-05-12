@@ -7,11 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed056d82-92fd-4668-a573-23a0c433ea74" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/IRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/java/com/ssm/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages/role-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/IPermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/java/com/ssm/controller/PermissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages/permission-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages/permission-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/webapp/pages/role-add.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao/IRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_dao/src/main/java/com/ssm/dao/IRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/IRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/IRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_service/src/main/java/com/ssm/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManagementSystem_web/src/main/java/com/ssm/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementSystem_web/src/main/java/com/ssm/controller/RoleController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +57,13 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="ssm: schema" type="76f4a085:MysqlImplModel$Schema" />
         <item name="permission: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ssm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ssm: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="role: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -367,7 +379,7 @@
       <workItem from="1589007610086" duration="12691000" />
       <workItem from="1589077554654" duration="13439000" />
       <workItem from="1589171173345" duration="6717000" />
-      <workItem from="1589250250530" duration="1997000" />
+      <workItem from="1589250250530" duration="4134000" />
     </task>
     <servers />
   </component>
