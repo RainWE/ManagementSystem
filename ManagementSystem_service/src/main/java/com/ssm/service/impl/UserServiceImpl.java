@@ -14,6 +14,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -29,8 +30,21 @@ public class UserServiceImpl implements IUserService {
     @Autowired
     private IUserDao UserDao;
 
+
     @Autowired
     private BCryptPasswordEncoder bCryptPasswordEncoder;
+
+    @Override
+    public void addRoleToUser(Integer userId, Integer[] roleIds) throws Exception {
+        for(Integer roleId:roleIds){
+            UserDao.addRoleToUser(userId,roleId);
+        }
+    }
+
+    @Override
+    public List<Role> findOtherRoles(Integer userid) throws Exception {
+        return UserDao.findOtherRoles(userid);
+    }
 
     @Override
     public UserInfo findById(Integer id) throws Exception {
