@@ -63,6 +63,7 @@ public class UserServiceImpl implements IUserService {
         return UserDao.findAll();
     }
 
+    //用户登录
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         UserInfo userInfo=null;
